@@ -19,7 +19,7 @@ def extract_job_descriptions(text):
 
 df = pd.read_csv('OutFile.csv')
 
-descriptions = df['Desc'].astype(str)
+descriptions = df['job Description'].astype(str)
 
 nlp = spacy.load('en_core_web_sm')
 
