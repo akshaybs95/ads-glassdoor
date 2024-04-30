@@ -26,4 +26,3 @@ nlp = spacy.load('en_core_web_sm')
 extracted_descriptions = descriptions.apply(extract_job_descriptions)
 df["JD"] =  extracted_descriptions
 df.to_csv('OutFile.csv', index=False)
-pass
