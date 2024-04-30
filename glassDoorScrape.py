@@ -1,3 +1,4 @@
+# Code to scrape Glassdoor JD from website
 import AdityaLib as ADL
 from bs4 import BeautifulSoup as bs
 from selenium.webdriver.common.by import By
