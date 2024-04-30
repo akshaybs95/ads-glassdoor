@@ -2,4 +2,4 @@
 
 "# ads-glassdoor"
 
-# basic code to scrape glassdoor
+# Code to scrape glassdoor JD
